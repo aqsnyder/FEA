@@ -55,7 +55,7 @@ def generate_heatmap(length, width, resolution, temperature_function):
     plt.figure(figsize=(8, 6))
     plt.pcolormesh(X, Y, temperature_grid, cmap=colormap)
     plt.colorbar(label='Temperature')
-    plt.title('Heatmap of Temperature Distribution in a Solid')
+    plt.title('Ritz - Heatmap of Temperature Distribution')
     plt.xlabel('Length')
     plt.ylabel('Width')
 
