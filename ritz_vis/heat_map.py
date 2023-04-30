@@ -69,6 +69,6 @@ def generate_heatmap(length, width, resolution, temperature_function):
     plt.show()
 
 length = 0.0032  # length value
-width = 5  # example width value
+width = 6.3  # example width value
 resolution = 100  # number of smaller rectangles along the length and width
 generate_heatmap(length, width, resolution, temperature_function)
